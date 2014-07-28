@@ -33,7 +33,7 @@ describe "StaticPages" do
     end
 
     it "should have the title 'Help'" do
-      visit '/static_pages/home'
+      visit '/static_pages/help'
       expect(page).to have_title("Sample App | Help")
     end
   end
@@ -46,7 +46,7 @@ describe "StaticPages" do
     end
 
     it "should have the title 'About Us'" do
-      visit '/static_pages/home'
+      visit '/static_pages/about'
       expect(page).to have_title("Sample App | About Us")
     end
   end
